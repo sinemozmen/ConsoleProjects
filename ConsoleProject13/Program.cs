@@ -71,7 +71,6 @@ namespace ConsoleProject13
 
                     Console.WriteLine("Hatalı bir giriş yaptınız.");
                 }
-
             }
         }
     }
