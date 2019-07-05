@@ -16,13 +16,16 @@ namespace ConsoleProject13
                 {
                     Console.WriteLine("Bir ay numarası giriniz veya çıkmak için Q harfine basınız .");
                     string girilen = Console.ReadLine();
-                    int ayNumarası = Convert.ToInt32(girilen);
-                    girilen.ToUpper();
-                    if (girilen == " Q")
-                        return;
-                    if ( ayNumarası < 1 || ayNumarası>12 )
+                    
+                   
+                    if (girilen == "Q"|| girilen=="q")
                     {
-                        Console.WriteLine("Lütfen 1-12 arasında bir sayı giriniz!"); 
+                        return;
+                    }
+                    int ayNumarası = Convert.ToInt32(girilen);
+                    if (ayNumarası < 1 || ayNumarası > 12)
+                    {
+                        Console.WriteLine("Lütfen 1-12 arasında bir sayı giriniz!");
                     }
                     switch (ayNumarası)
                     {
