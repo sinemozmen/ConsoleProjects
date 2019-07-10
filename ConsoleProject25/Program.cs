@@ -9,38 +9,57 @@ namespace ConsoleProject25
     class Program
     {
         static void Main(string[] args)
-        {   
-            int toplam = 0 ;
-            int sayac = 1 ;
-            int sayi=0;
-            
-            
+        {
+            int sayac = 1;
+            int toplam = 0;
+            string okunan = "";
+            int girilen = 0;
 
-            Console.WriteLine("Kaç adet sayının toplanmasını istersiniz ? ");
-            int girilen = Convert.ToInt32(Console.ReadLine());
-           // int [] dizi = new int [girilen];
-                while(sayac<=girilen)
-                     //for(int i =0; i< girilen;i++)
-                {   
-                    Console.WriteLine(sayac+" . sayıyı giriniz ");
-                    sayi = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine(sayi+"+");
-                    Console.ReadLine();
-                    sayac++;
-                    toplam=toplam+sayi;
-                     Console.Write(sayi+"+"+toplam);
-                    
-                   
-                    //dizi[i]=sayi;
-                    //Console.WriteLine(dizi[i]);
-                    
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Kaç adet sayı toplayacaksınız?");
+                    girilen = Convert.ToInt32(Console.ReadLine());
+
                 }
-            
+                catch
+                {
+                    Console.WriteLine("Hatalı giriş");
+                    continue;
+                }
+
+                while (true)
+                {
+                    try
+                    {
+                        Console.Write(sayac + ". sayıyı giriniz :");
+                        int sayi = Convert.ToInt32(Console.ReadLine());
+                        toplam = toplam + sayi;
+                        if (girilen != sayac)
+                        {
+                            okunan = okunan + Convert.ToString(sayi) + "+";
+                        }
+                        else
+                        {
+                            okunan = okunan + Convert.ToString(sayi);
+                        }
+                        sayac = sayac + 1;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Hatalı giriş");
+                        continue;
+                    }
+                    if (sayac > girilen)
+                        break;
+                }
+                Console.WriteLine("Sayıların toplamu = " + okunan + "= " + toplam);
                 Console.ReadLine();
-
-
-
-
+                return;
+            }
         }
+
     }
 }
+

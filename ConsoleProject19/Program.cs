@@ -81,12 +81,6 @@ namespace ConsoleProject19
                         {
                             Console.WriteLine("Bilgisayar:" + i);
                         }
-
-
-
-
-
-
                     }
 
                 }
