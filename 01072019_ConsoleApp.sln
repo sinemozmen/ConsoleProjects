@@ -73,6 +73,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject34", "..\..\8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject35", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject35\ConsoleProject35.csproj", "{28075C47-DDDE-48AC-9E46-8E0E05AD2BFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject36", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject36\ConsoleProject36.csproj", "{626D96F7-A672-4776-B6B2-00BFA3BECD78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject37", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject37\ConsoleProject37.csproj", "{C4AE09C9-1D0D-4B71-9BD1-F5F518EC9DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject38", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject38\ConsoleProject38.csproj", "{61798B1C-601D-498E-B35B-9C06D89004A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject39", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject39\ConsoleProject39.csproj", "{2936FB7C-35E7-4DD5-A8C7-335063AEE8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject40", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject40\ConsoleProject40.csproj", "{FEA57804-3D67-4E88-A23A-80BD677C47D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject41", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject41\ConsoleProject41.csproj", "{97BB5BD9-783A-43D8-A5FC-DB13F84B4770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProject42", "..\..\8.7.2019-ConsoleProjects-master\ConsoleProject42\ConsoleProject42.csproj", "{396160B2-3F2B-4C89-9755-ADA3695491D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "..\..\8.7.2019-ConsoleProjects-master\Dictionary\Dictionary.csproj", "{4D3C96F4-3B3B-4C3D-B9FD-D097F10EC481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci-ForDongusu", "..\..\8.7.2019-ConsoleProjects-master\Fibonacci-ForDongusu\Fibonacci-ForDongusu.csproj", "{EA4AC902-E2FE-4F9C-BF80-DAC116B9AA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Örnek", "..\..\8.7.2019-ConsoleProjects-master\Örnek\Örnek.csproj", "{84F7343E-68B5-4010-9E22-EF2021031317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +239,46 @@ Global
 		{28075C47-DDDE-48AC-9E46-8E0E05AD2BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28075C47-DDDE-48AC-9E46-8E0E05AD2BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28075C47-DDDE-48AC-9E46-8E0E05AD2BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626D96F7-A672-4776-B6B2-00BFA3BECD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626D96F7-A672-4776-B6B2-00BFA3BECD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626D96F7-A672-4776-B6B2-00BFA3BECD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626D96F7-A672-4776-B6B2-00BFA3BECD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AE09C9-1D0D-4B71-9BD1-F5F518EC9DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AE09C9-1D0D-4B71-9BD1-F5F518EC9DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AE09C9-1D0D-4B71-9BD1-F5F518EC9DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AE09C9-1D0D-4B71-9BD1-F5F518EC9DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61798B1C-601D-498E-B35B-9C06D89004A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61798B1C-601D-498E-B35B-9C06D89004A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61798B1C-601D-498E-B35B-9C06D89004A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61798B1C-601D-498E-B35B-9C06D89004A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2936FB7C-35E7-4DD5-A8C7-335063AEE8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2936FB7C-35E7-4DD5-A8C7-335063AEE8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2936FB7C-35E7-4DD5-A8C7-335063AEE8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2936FB7C-35E7-4DD5-A8C7-335063AEE8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA57804-3D67-4E88-A23A-80BD677C47D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA57804-3D67-4E88-A23A-80BD677C47D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA57804-3D67-4E88-A23A-80BD677C47D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA57804-3D67-4E88-A23A-80BD677C47D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BB5BD9-783A-43D8-A5FC-DB13F84B4770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BB5BD9-783A-43D8-A5FC-DB13F84B4770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BB5BD9-783A-43D8-A5FC-DB13F84B4770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BB5BD9-783A-43D8-A5FC-DB13F84B4770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396160B2-3F2B-4C89-9755-ADA3695491D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396160B2-3F2B-4C89-9755-ADA3695491D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396160B2-3F2B-4C89-9755-ADA3695491D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396160B2-3F2B-4C89-9755-ADA3695491D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3C96F4-3B3B-4C3D-B9FD-D097F10EC481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3C96F4-3B3B-4C3D-B9FD-D097F10EC481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3C96F4-3B3B-4C3D-B9FD-D097F10EC481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3C96F4-3B3B-4C3D-B9FD-D097F10EC481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4AC902-E2FE-4F9C-BF80-DAC116B9AA44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4AC902-E2FE-4F9C-BF80-DAC116B9AA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4AC902-E2FE-4F9C-BF80-DAC116B9AA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4AC902-E2FE-4F9C-BF80-DAC116B9AA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F7343E-68B5-4010-9E22-EF2021031317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F7343E-68B5-4010-9E22-EF2021031317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F7343E-68B5-4010-9E22-EF2021031317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F7343E-68B5-4010-9E22-EF2021031317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
